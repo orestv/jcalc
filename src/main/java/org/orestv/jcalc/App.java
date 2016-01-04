@@ -1,5 +1,7 @@
 package org.orestv.jcalc;
 
+import javax.swing.*;
+
 /**
  * Hello world!
  *
@@ -8,6 +10,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        MainUI ui = new MainUI();
+        ui.setVisible(true);
     }
 }
